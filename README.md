@@ -1,5 +1,7 @@
 # Team Introduction
-- 이승준 202211337 Individual
+- Name: 이승준(202211337) 
+- Github ID: somniumcaeruleumKonkuk 
+- Team type: Individual
 
 # Topic Introduction
 - (currently empty)
