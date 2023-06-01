@@ -13,7 +13,7 @@
 - (currently empty)
 
 # Installation
-- (currently empty)
+- numpy, opencv, tensorflow를 2023/6/1 기준 최신 버전으로 설치.
 
 # Presentation
 - (currently empty)
