@@ -5,6 +5,7 @@
 
 # Topic Introduction
 - Deep cnn 기술을 이용한 Image Denoising
+- Source code: https://github.com/wbhu/DnCNN-tensorflow
 
 # Results
 
@@ -45,7 +46,55 @@ Comparing between noised, denoised
 - (currently empty)
 
 # Installation
-- numpy, opencv, tensorflow를 2023/6/1 기준 최신 버전으로 설치.
+- Install numpy, opencv, tensorflow.
+
+## Environment: 
+    Numpy version: 1.23.5
+    Opencv version: 4.7.0
+    Tensorflow version: 2.12.0
+    OS: Windows 11 Education (the latest version in 6/1/2023)
+    
+## Data preprocessing and noise generation
+"
+Before training, you have to rescale the images to 180x180 and adding noise to them.
+The folder structure is supposed to be:
+```
+./data/train/original  for the 180x180 original train images
+./data/train/noisy  for the 180x180 noisy train images
+./data/test/original  for the 180x180 original test images
+./data/test/noisy  for the 180x180 noisy test images
+```
+You need the original files for testing just to calculate the PSNR.
+You can denoise without original files: just put the noisy files also in ./data/test/original
+" - https://github.com/wbhu/DnCNN-tensorflow
+
+## How to Train
+```
+./data/train/original  put the 180x180 original train images here
+./data/train/noisy  put the 180x180 noisy train images here
+```
+
+- Put the images at the right places
+- Start cmd
+- Move to the directory that the main.py exists using cd command
+- Enter the command below.
+```
+python main.py
+```
+
+## How to Test
+```
+./data/test/original put the 180x180 original test images here *it's totally ok to put the same image here
+./data/test/noisy  put the 180x180 noisy test images here 
+```
+
+- Put the images at the right places
+- Start cmd
+- Move to the directory that the main.py exists using cd command
+- Enter the command below.
+```
+python main.py --phase test
+```
 
 # Presentation
 - (currently empty)
