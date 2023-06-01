@@ -4,7 +4,7 @@
 - Team type: Individual
 
 # Topic Introduction
-- (currently empty)
+- Deep cnn 기술을 이용한 Image Denoising
 
 # Results
 - (currently empty)
