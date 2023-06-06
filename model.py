@@ -244,6 +244,8 @@ class dataset(object):
         
 def im_read(filename):
     """Decode the png image from the filename and convert to [0, 1]."""
+    filename = str(filename)
+    print(filename)
     image_string = tf.read_file(filename)
     image_decoded = tf.image.decode_png(image_string, channels=3)
     # This will convert to float values in [0, 1]
