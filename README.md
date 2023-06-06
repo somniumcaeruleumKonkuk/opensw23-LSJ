@@ -35,61 +35,123 @@
 ![original2.png](./img/original2.png)
 - Image Source: https://commons.wikimedia.org/wiki/File:Cat03.jpg
 
-### Image 1
+### Image 1 - 1
 ![2_020.png](./img/testSet_original2/2_020.png)
 - Amount of Noise: 50
 - Strength of the noise: 20
 - Monochromatic: False
 
-### Image 2
+### Image 1 - 2
+![2_020.png](./img/testSet_original2/2_020_100.png)
+- Amount of Noise: 100
+- Strength of the noise: 20
+- Monochromatic: False
+
+### Image 2 - 1
 ![2_040.png](./img/testSet_original2/2_040.png)
 - Amount of Noise: 50
 - Strength of the noise: 40
 - Monochromatic: False
 
-### Image 3
+### Image 2 - 2
+![2_040.png](./img/testSet_original2/2_040_100.png)
+- Amount of Noise: 100
+- Strength of the noise: 40
+- Monochromatic: False
+
+### Image 3 - 1
 ![2_060.png](./img/testSet_original2/2_060.png)
 - Amount of Noise: 50
 - Strength of the noise: 60
 - Monochromatic: False
 
-### Image 4
+### Image 3 - 2
+![2_060.png](./img/testSet_original2/2_060_100.png)
+- Amount of Noise: 100
+- Strength of the noise: 60
+- Monochromatic: False
+
+### Image 4 - 1
 ![2_080.png](./img/testSet_original2/2_080.png)
 - Amount of Noise: 50
 - Strength of the noise: 80
 - Monochromatic: False
 
-### Image 5
+### Image 4 - 2
+![2_080.png](./img/testSet_original2/2_080_100.png)
+- Amount of Noise: 100
+- Strength of the noise: 80
+- Monochromatic: False
+
+### Image 5 - 1
 ![2_100.png](./img/testSet_original2/2_100.png)
 - Amount of Noise: 50
 - Strength of the noise: 100
 - Monochromatic: False
 
-### Image 6
+### Image 5 - 2
+![2_100.png](./img/testSet_original2/2_100_100.png)
+- Amount of Noise: 100
+- Strength of the noise: 100
+- Monochromatic: False
+
+### Image 6 - 1
 ![2_100_grey.png](./img/testSet_original2/2_100_grey.png)
 - Amount of Noise: 50
 - Strength of the noise: 100
 - Monochromatic: True
 
+### Image 6 - 2
+![2_100_grey.png](./img/testSet_original2/2_100_grey_100.png)
+- Amount of Noise: 100
+- Strength of the noise: 100
+- Monochromatic: True
+
+
+
 ## Denoised Images
 
-### Image 1
+### Image 1 - 1
 ![denoised_2_020.png](./img/Denoised_Image_original2/denoised_2_020.png)
 
-### Image 2
+### Image 1 - 2
+![denoised_2_020.png](./img/Denoised_Image_original2/denoised_2_020_100.png)
+
+### Image 2 - 1
 ![denoised_2_040.png](./img/Denoised_Image_original2/denoised_2_040.png)
 
-### Image 3
+### Image 2 - 2
+![denoised_2_040.png](./img/Denoised_Image_original2/denoised_2_040_100.png)
+
+### Image 3 - 1
 ![denoised_2_060.png](./img/Denoised_Image_original2/denoised_2_060.png)
 
-### Image 4
+### Image 3 - 2
+![denoised_2_060.png](./img/Denoised_Image_original2/denoised_2_060_100.png)
+
+### Image 4 - 1
 ![denoised_2_080.png](./img/Denoised_Image_original2/denoised_2_080.png)
 
-### Image 5
+### Image 4 - 2
+![denoised_2_080.png](./img/Denoised_Image_original2/denoised_2_080_100.png)
+
+### Image 5 - 1
 ![denoised_2_100.png](./img/Denoised_Image_original2/denoised_2_100.png)
 
-### Image 6
+### Image 5 - 2
+![denoised_2_100.png](./img/Denoised_Image_original2/denoised_2_100_100.png)
+
+### Image 6 - 1
 ![denoised_2_100_grey.png](./img/Denoised_Image_original2/denoised_2_100_grey.png)
+
+### Image 6 - 2
+![denoised_2_100_grey.png](./img/Denoised_Image_original2/denoised_2_100_grey_100.png)
+
+
+
+## Conclusion
+- Noise의 양(amount)과 강도(strength)가 클수록 디노이징(denoising)의 잘 되지 않는 것을 볼 수 있었다. Noise의 강도(strength)가 작을 때는 양(amount)이 크게 영향을 주지 못했으나, Noise의 강도(strength)가 60을 넘은 후 부터는 양(amount)가 상당히 denoised image들의 화질에 영향을 미치는 중요한 변수임을 볼 수 있었다.
+- As the amount and strength of noise increased, you can see that the quality of the denoised images isn't good in the above experiment. When the strength was low, the amount of noise didn't matter that much. As the strength is over 60, however, the amount of noise was important variable to the quality.
 
 
 # Installation
