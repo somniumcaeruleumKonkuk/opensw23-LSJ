@@ -74,22 +74,22 @@
 ## Denoised Images
 
 ### Image 1
-![0000](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/97adde7e-ae6c-4a3a-9684-ac7543b78802)
+![denoised_2_020.png](./img/Denoised_Image_original2/denoised_2_020.png)
 
 ### Image 2
-![0001](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/16cd86a2-b3f1-4547-8b8c-7d866a64a637)
+![denoised_2_040.png](./img/Denoised_Image_original2/denoised_2_040.png)
 
 ### Image 3
-![0002](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/81b554d6-6bbc-4b3b-bebc-b3015559246b)
+![denoised_2_060.png](./img/Denoised_Image_original2/denoised_2_060.png)
 
 ### Image 4
-![0003](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/54cf5115-518a-4677-a15e-58bf71e4cc6d)
+![denoised_2_080.png](./img/Denoised_Image_original2/denoised_2_080.png)
 
 ### Image 5
-![0004](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/f08ac3db-71e5-41fd-ae97-d25058c3f738)
+![denoised_2_100.png](./img/Denoised_Image_original2/denoised_2_100.png)
 
 ### Image 6
-![0005](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/7deb86e1-e670-414c-9acf-ef27ff85b322)
+![denoised_2_100_grey.png](./img/Denoised_Image_original2/denoised_2_100_grey.png)
 
 
 # Installation
