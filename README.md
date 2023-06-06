@@ -10,13 +10,13 @@
 
 # Results
 ## Original Image
-<img width="92" alt="original2" src="https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/157664a0-728d-4918-bde9-4a72437d7ba5">
+![original1.png](./img/original1.png)
 
 - Image Source: https://www.nationalgeographic.com/adventure/article/140127-cats-pets-animals-nation-dogs-people-science
 - PHOTOGRAPH BY FSTOP, ALAMY
 
 ## Noised Image
-![testSet1](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/b7fff828-8f33-4a83-b563-3c7d632710c6)
+![1_050.png](./img/testSet_original1/1_050.png)
 
 - I added noises to the original image using https://pinetools.com/add-noise-image.
 - Amount of Noise: 50
@@ -24,7 +24,7 @@
 - Monochromatic: False
 
 ## Denoised Image
-![0000](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/4a2684a7-23ae-40ac-a080-33b39c020b32)
+![0000.png](./img/Denoised_Image_original1/0000.png)
 
 
 # Analysis/Visualization
@@ -32,41 +32,41 @@
 - I added noises to the original image using https://pinetools.com/add-noise-image.
 
 ### Original Image
-![original1](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/3100bc8c-3135-447d-aa15-61cd55160e59)
+![original2.png](./img/original2.png)
 - Image Source: https://commons.wikimedia.org/wiki/File:Cat03.jpg
 
 ### Image 1
-![1_020](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/f645db63-501f-4221-b0b8-6d5cceb61671)
+![2_020.png](./img/testSet_original2/2_020.png)
 - Amount of Noise: 50
 - Strength of the noise: 20
 - Monochromatic: False
 
 ### Image 2
-![1_040](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/71f9c002-0394-40fb-882b-0a4f2ccbc023)
+![2_040.png](./img/testSet_original2/2_040.png)
 - Amount of Noise: 50
 - Strength of the noise: 40
 - Monochromatic: False
 
 ### Image 3
-![1_060](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/18245c41-57b5-493a-8844-2bf618815b51)
+![2_060.png](./img/testSet_original2/2_060.png)
 - Amount of Noise: 50
 - Strength of the noise: 60
 - Monochromatic: False
 
 ### Image 4
-![1_080](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/5d604778-c3d0-40e2-9e69-dccedf744db1)
+![2_080.png](./img/testSet_original2/2_080.png)
 - Amount of Noise: 50
 - Strength of the noise: 80
 - Monochromatic: False
 
 ### Image 5
-![1_100](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/a56c7e90-fb09-46ba-9e0a-7e8092425197)
+![2_100.png](./img/testSet_original2/2_100.png)
 - Amount of Noise: 50
 - Strength of the noise: 100
 - Monochromatic: False
 
 ### Image 6
-![1_100_grey](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/54412271-e5e4-4476-96e5-6a07433f6af0)
+![2_100_grey.png](./img/testSet_original2/2_100_grey.png)
 - Amount of Noise: 50
 - Strength of the noise: 100
 - Monochromatic: True
