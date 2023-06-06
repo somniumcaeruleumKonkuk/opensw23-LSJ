@@ -1,3 +1,11 @@
+# Hello World!
+- This repository is for the homework of my university.
+- This is a tensorflow implementation of the paper [Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising](http://www4.comp.polyu.edu.hk/~cslzhang/paper/DnCNN.pdf)
+- Original Code: https://github.com/wbhu/DnCNN-tensorflow
+    - Because the original code is outdated, I fixed several part of the codes for new versions.
+    - I'm sure that one day this code will be outdated, too.
+    - But I hope that someone will update this code at that time.
+
 # Team Introduction
 - Name: 이승준(202211337) 
 - Github ID: somniumcaeruleumKonkuk 
@@ -6,7 +14,6 @@
 # Topic Introduction
 - Implementing DnCNN Image Denoising using Tensorflow
 - Original: https://github.com/wbhu/DnCNN-tensorflow
-    - Because the original code was for old version of tensorflow, I edited main.py, model.py for tensorflow 2.
 
 # Results
 ## Original Image
@@ -150,7 +157,7 @@
 
 
 ## Conclusion
-- Noise의 양(amount)과 강도(strength)가 클수록 디노이징(denoising)의 잘 되지 않는 것을 볼 수 있었다. Noise의 강도(strength)가 작을 때는 양(amount)이 크게 영향을 주지 못했으나, Noise의 강도(strength)가 60을 넘은 후 부터는 양(amount)가 상당히 denoised image들의 화질에 영향을 미치는 중요한 변수임을 볼 수 있었다.
+- Noise의 양(amount)과 강도(strength)가 클수록 디노이징(denoising) 잘 되지 않는 것을 볼 수 있었다. Noise의 강도(strength)가 작을 때는 양(amount)이 크게 영향을 주지 못했으나, Noise의 강도(strength)가 60을 넘은 후 부터는 양(amount)가 상당히 denoised image들의 화질에 영향을 미치는 중요한 변수임을 볼 수 있었다.
 - As the amount and strength of noise increased, you can see that the quality of the denoised images isn't good in the above experiment. When the strength was low, the amount of noise didn't matter that much. As the strength is over 60, however, the amount of noise was important variable to the quality.
 
 
@@ -184,7 +191,7 @@ You can denoise without original files: just put the noisy files also in ./data/
 ```
 
 - Put the images at the right places
-- Start cmd
+- Excute cmd
 - Move to the directory that the main.py exists using cd command
 - Enter the command below.
 ```
@@ -198,7 +205,7 @@ python main.py
 ```
 
 - Put the images at the right places
-- Start cmd
+- Excute cmd
 - Move to the directory that the main.py exists using cd command
 - Enter the command below.
 ```
