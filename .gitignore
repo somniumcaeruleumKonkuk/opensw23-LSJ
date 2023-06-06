@@ -1,9 +1,0 @@
-*.pyc
-checkpoint/
-sample/
-*.npy
-.idea/
-logs/
-test/
-*.tar.gz
-*.pptx
