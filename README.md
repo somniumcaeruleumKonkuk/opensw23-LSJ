@@ -8,42 +8,88 @@
 - Source code: https://github.com/wbhu/DnCNN-tensorflow
 
 # Results
+## Original Image
+<img width="92" alt="original2" src="https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/157664a0-728d-4918-bde9-4a72437d7ba5">
 
-Test Set
+- Image Source: https://www.nationalgeographic.com/adventure/article/140127-cats-pets-animals-nation-dogs-people-science
+- PHOTOGRAPH BY FSTOP, ALAMY
 
+## Noised Image
+![testSet1](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/b7fff828-8f33-4a83-b563-3c7d632710c6)
 
-Noised Image 1
+- I added noises to the original image using https://pinetools.com/add-noise-image.
+- Amount of Noise: 50
+- Strength of the noise: 50
+- Monochromatic: False
 
-<img width="90" alt="noised" src="https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/9361221d-63ef-4ebc-b2c0-970a3a465f1d">
-
-
-Denoised Image 1
-
-![denoised](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/8d13f1e9-8d4d-4436-aae6-605cb57f1632)
-
-
-Comparing between noised, denoised
-
-<img width="272" alt="compare1" src="https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/50e439f2-2ffa-46b8-a2b0-1ba3e68fc260">
-
-
-Noised Image 2
-
-![noised1](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/db26d598-ed5e-43ea-9d11-1a3a0bba7fa8)
-
-
-Denoised Image 2
-
-![denoised2](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/dc851122-0fd6-4e96-b442-f43664942c9d)
-
-
-Comparing between noised, denoised
-
-<img width="280" alt="compare2" src="https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/b9edd589-5287-44bc-987c-3eda07a3c556">
+## Denoised Image
+![0000](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/4a2684a7-23ae-40ac-a080-33b39c020b32)
 
 
 # Analysis/Visualization
-- (currently empty)
+## Test Set
+- I added noises to the original image using https://pinetools.com/add-noise-image.
+
+### Original Image
+![original1](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/3100bc8c-3135-447d-aa15-61cd55160e59)
+- Image Source: https://commons.wikimedia.org/wiki/File:Cat03.jpg
+
+### Image 1
+![1_020](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/f645db63-501f-4221-b0b8-6d5cceb61671)
+- Amount of Noise: 50
+- Strength of the noise: 20
+- Monochromatic: False
+
+### Image 2
+![1_040](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/71f9c002-0394-40fb-882b-0a4f2ccbc023)
+- Amount of Noise: 50
+- Strength of the noise: 40
+- Monochromatic: False
+
+### Image 3
+![1_060](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/18245c41-57b5-493a-8844-2bf618815b51)
+- Amount of Noise: 50
+- Strength of the noise: 60
+- Monochromatic: False
+
+### Image 4
+![1_080](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/5d604778-c3d0-40e2-9e69-dccedf744db1)
+- Amount of Noise: 50
+- Strength of the noise: 80
+- Monochromatic: False
+
+### Image 5
+![1_100](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/a56c7e90-fb09-46ba-9e0a-7e8092425197)
+- Amount of Noise: 50
+- Strength of the noise: 100
+- Monochromatic: False
+
+### Image 6
+![1_100_grey](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/54412271-e5e4-4476-96e5-6a07433f6af0)
+- Amount of Noise: 50
+- Strength of the noise: 100
+- Monochromatic: True
+
+## Denoised Images
+
+### Image 1
+![0000](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/97adde7e-ae6c-4a3a-9684-ac7543b78802)
+
+### Image 2
+![0001](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/16cd86a2-b3f1-4547-8b8c-7d866a64a637)
+
+### Image 3
+![0002](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/81b554d6-6bbc-4b3b-bebc-b3015559246b)
+
+### Image 4
+![0003](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/54cf5115-518a-4677-a15e-58bf71e4cc6d)
+
+### Image 5
+![0004](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/f08ac3db-71e5-41fd-ae97-d25058c3f738)
+
+### Image 6
+![0005](https://github.com/somniumcaeruleumKonkuk/opensw23-LSJ/assets/127181476/7deb86e1-e670-414c-9acf-ef27ff85b322)
+
 
 # Installation
 - Install numpy, opencv, tensorflow.
