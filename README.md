@@ -4,8 +4,9 @@
 - Team type: Individual
 
 # Topic Introduction
-- Deep cnn 기술을 이용한 Image Denoising
-- Source code: https://github.com/wbhu/DnCNN-tensorflow
+- Implementing DCNN Image Denoising using Tensorflow
+- Original: https://github.com/wbhu/DnCNN-tensorflow
+    - Because the original code was for old version of tensorflow, I edited main.py, model.py for tensorflow 2.
 
 # Results
 ## Original Image
