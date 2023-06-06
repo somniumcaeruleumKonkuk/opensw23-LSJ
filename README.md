@@ -4,7 +4,7 @@
 - Team type: Individual
 
 # Topic Introduction
-- Implementing DCNN Image Denoising using Tensorflow
+- Implementing DnCNN Image Denoising using Tensorflow
 - Original: https://github.com/wbhu/DnCNN-tensorflow
     - Because the original code was for old version of tensorflow, I edited main.py, model.py for tensorflow 2.
 
