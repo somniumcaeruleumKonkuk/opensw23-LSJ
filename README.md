@@ -16,7 +16,7 @@
 - Original: https://github.com/wbhu/DnCNN-tensorflow
 
 # Results
-![Results](./img/Fig1.png)
+![Results](./img/Fig1.PNG)
 
 # Analysis/Visualization
 ## Original Image
