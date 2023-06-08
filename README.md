@@ -19,12 +19,13 @@
 ![Results](./img/Fig1.png)
 
 # Analysis/Visualization
-![original5.png](./img/original5.png)
+## Original Image
+![original5.jpg](./img/original5.jpg)
 
+## Noised Images
 ![Fig2.png](./img/Fig2.png)
-
+## Denoised Images
 ![Fig3.png](./img/Fig3.png)
-
 
 
 ## Conclusion
