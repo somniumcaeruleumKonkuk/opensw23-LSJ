@@ -198,7 +198,8 @@ class denoiser(object):
             psnr = psnr_scaled(clean_image, out1[0,0])
             psnr1 = psnr_scaled(clean_image, noisy)
             
-            print("img%d PSNR: %.2f , noisy PSNR: %.2f" % (i + 1, psnr, psnr1))
+            print("img%d PSNR: %.2f , noisy PSNR: %.2f" % (i + 1, psnr, psnr1), end=' ')
+            print(eval_files[i])
             psnr_sum += psnr
 
             cv2.imwrite('./data/denoised/%04d.png'%(i),out1[0,0]*255.0)
