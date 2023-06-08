@@ -10,7 +10,7 @@
 - Team Introduction
 - Topic Introduction
 - Results
-- Analysys/Visualization
+- Analysis/Visualization
 - Installation
 - Presentation
 
