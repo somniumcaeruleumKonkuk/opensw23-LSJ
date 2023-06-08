@@ -6,6 +6,14 @@
     - I'm sure that one day this code will be outdated, too.
     - But I hope that someone will update this code at that time.
 
+# Chapter
+- Team Introduction
+- Topic Introduction
+- Results
+- Analysys/Visualization
+- Installation
+- Presentation
+
 # Team Introduction
 - Name: 이승준(202211337) 
 - Github ID: somniumcaeruleumKonkuk 
@@ -14,6 +22,11 @@
 # Topic Introduction
 - Implementing DnCNN Image Denoising using Tensorflow
 - Original: https://github.com/wbhu/DnCNN-tensorflow
+
+![Slide3.png](./PPT/Slide3.PNG)
+![Slide4.png](./PPT/Slide4.PNG)
+![Slide5.png](./PPT/Slide5.PNG)
+![Slide6.png](./PPT/Slide6.PNG)
 
 # Results
 ![Results](./img/Fig1.PNG)
