@@ -49,11 +49,12 @@
 # Installation
 - Install numpy, opencv, tensorflow.
 
-## Environment: 
-    Numpy version: 1.23.5
-    Opencv version: 4.7.0
-    Tensorflow version: 2.12.0
-    OS: Windows 11 Education (the latest version in 6/1/2023)
+## Environment
+- Python version: 3.10.10
+- Tensorflow version: 2.12.0
+- OS: Windows 11 Education (the latest version in 6/1/2023)
+- Numpy version: 1.23.5
+- Opencv version: 4.7.0
     
 ## Data preprocessing and noise generation
 "
