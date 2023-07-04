@@ -1,5 +1,5 @@
 # Hello World!
-- This repository is for the homework of my university.
+- This repository was my homework of my university.
 - This is a tensorflow implementation of the paper [Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising](http://www4.comp.polyu.edu.hk/~cslzhang/paper/DnCNN.pdf)
 - Original Code: https://github.com/wbhu/DnCNN-tensorflow
     - Because the original code is outdated, I fixed several part of the codes for new versions.
@@ -76,7 +76,7 @@ You can denoise without original files: just put the noisy files also in ./data/
 ./data/train/noisy  put the 180x180 noisy train images here
 ```
 
-- Put the images at the right places
+- Put the images at the right places *The number of images must be 10n. (n is a natural number)
 - Excute cmd
 - Move to the directory that the main.py exists using cd command
 - Enter the command below.
@@ -97,6 +97,3 @@ python main.py
 ```
 python main.py --phase test
 ```
-
-# Presentation
-- https://youtu.be/ubIS-ilWkzg
